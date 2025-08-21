@@ -205,7 +205,7 @@ local Players = game:GetService('Players')
 local LocalPlayer = Players.LocalPlayer
 
 -- Allowed game (replace with your real PlaceId)
-local allowedGameId = 1234567890
+local allowedGameId = 14483332676
 
 if game.PlaceId == allowedGameId then
     ------------------------------
@@ -538,3 +538,4 @@ AutoBox:AddToggle('AntiAFK', {
         end
     end,
 })
+
